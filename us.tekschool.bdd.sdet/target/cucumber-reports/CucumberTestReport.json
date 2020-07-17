@@ -1,0 +1,177 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1804140600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on TEST Environment page",
+            "match": {
+              "location": "loginStepDefinito.user_is_on_TEST_Environment_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6371333400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.beforHooks()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Log out from  MyAccount",
+        "description": "",
+        "id": "login-to-test-environment;log-out-from--myaccount",
+        "after": [
+          {
+            "result": {
+              "duration": 691371400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.afterHooks()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 82094900,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User click on MyAccount",
+            "match": {
+              "location": "loginStepDefinito.user_click_on_MyAccount()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 336562700,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User click on Login",
+            "match": {
+              "location": "loginStepDefinito.user_click_on_Login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 287993100,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User enters username \u0027sdet@tekschool.us\u0027 and Password \u0027sdet\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sdet@tekschool.us",
+                  "offset": 22
+                },
+                {
+                  "val": "sdet",
+                  "offset": 55
+                }
+              ],
+              "location": "loginStepDefinito.user_enters_username_sdet_tekschool_us_and_Password_sdet(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 575201100,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User click on Login button",
+            "match": {
+              "location": "loginStepDefinito.user_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9205900,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User Should be logged in to user Dashboard",
+            "match": {
+              "location": "loginStepDefinito.user_Should_be_logged_in_to_user_Dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 58691900,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User click on MyAccount",
+            "match": {
+              "location": "loginStepDefinito.user_click_on_MyAccount()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 553080400,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User click on Logout",
+            "match": {
+              "location": "loginStepDefinito.user_click_on_logout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11364500,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User should be logged out",
+            "match": {
+              "location": "loginStepDefinito.user_should_be_logged_out()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 32,
+            "name": "@logout"
+          }
+        ]
+      }
+    ],
+    "name": "Login to Test Environment",
+    "description": "",
+    "id": "login-to-test-environment",
+    "keyword": "Feature",
+    "uri": "Features/Login.feature"
+  }
+]

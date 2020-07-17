@@ -1,0 +1,4 @@
+stepDefinitions\Initializer.class
+stepDefinitions\loginStepDefinito.class
+stepDefinitions\RegisterStepDefinition.class
+runner\TestRunner.class
